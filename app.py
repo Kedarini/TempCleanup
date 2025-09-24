@@ -1,3 +1,24 @@
+"""
+Author: Kedarini
+Email: kedardamps@gmail.com
+Version: 1.0
+Date: 2025-09-24
+License: MIT
+
+Windows Temporary Files Cleanup Script
+--------------------------------------
+Description:
+    This script removes temporary files and folders from:
+    - %TEMP% and %TMP% (user temp folders)
+    - C:\Windows\Temp (system temp folder)
+    - C:\Windows\Prefetch (system prefetch folder)
+
+    It counts the number of files/folders deleted and calculates the total space freed.
+
+Run as Administrator to clean system folders completely.
+--------------------------------------
+"""
+
 import os
 import shutil
 
